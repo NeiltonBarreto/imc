@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js" defer></script>
+    <title>Calculo IMC</title>
+</head>
+<body>
+    <main>
+        <!-- Principal -->
+        <div id="principal" class="cxPrincipal">
+            <h1>Calculo IMC</h1>
+            <div id="divNome" class="componente">
+                <label for="nome">NOME</label>
+                <input type="text" id="nome" name="nome" placeholder="Exemplo Fulano de Tal">
+            </div>
+            <div id="divAltura" class="componente">
+                <label for="altura">ALTURA</label>
+                <input type="text" id="altura" name="altura" placeholder="Exemplo: 1,76">
+            </div>
+            <div id="divPeso" class="componente">
+                <label for="peso">PESO</label>
+                <input type="text" id="peso" name="peso" placeholder="Exemplo: 72,5">
+            </div>
+            <div id="divBtnCalcular" class="componente">
+                <button id="btnCalcular">CALCULAR</button>
+            </div>
+            <div id="divBtnLimpar" class="componente">
+                <button id="btnLimpar">LIMPAR</button>
+            </div>
+        </div>
+        <!-- Resultado -->
+        <div id="resultado" class="cxResultado ocultar">
+
+        </div>
+    </main>
+</body>
+</html>

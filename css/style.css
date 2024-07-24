@@ -1,0 +1,108 @@
+/* Comentário */
+*{
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+main{
+
+    width: 300px;
+    min-height: 600px;
+
+    border-radius: 10px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.cxPrincipal{
+    background-color:rgb(251, 255, 133);
+    width: 300px;
+    min-width: 300px;
+    min-height: 600px;
+
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocultar{
+    display: none !important;
+}
+
+.cxResultado{
+    background-color:aquamarine;
+    width: 300px;
+    min-height: 600px;
+
+    color: #ff0000;
+    text-align: center;
+    
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.componente{
+    width: 90%;
+
+    color: #ff0000;
+
+    padding: 14px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(253, 4, 4);
+    text-align: center;
+} 
+
+button{
+    background-color: red;
+    color: white;
+
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    color: red;
+
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+
